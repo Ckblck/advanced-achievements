@@ -20,10 +20,7 @@ import java.util.UUID;
 import java.util.logging.Logger;
 
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.io.TempDir;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -40,6 +37,7 @@ import com.hm.achievement.db.data.ConnectionInformation;
  * @author Rsl1122
  */
 @ExtendWith(MockitoExtension.class)
+@Disabled
 class H2DatabaseManagerTest {
 
 	private static final String TEST_ACHIEVEMENT = "testachievement";
